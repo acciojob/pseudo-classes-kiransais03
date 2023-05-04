@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+:root {
+	background-color:skyblue;
+}
+
+.para p:first-child {
+	color: white;
+	background-color: black;
+}
+
+.para p:last-child {
+	color: red;
+}
+
+.ulist li:nth-child(2n) {
+	background-color:slategray;
+}
+
+.ulist li:nth-child(2n+1) {
+	background-color:pink;
+}
+
+.ulist li:first-child,.ulist li:last-child {
+	background-color:white;
+}
+
+.ulist li {
+	width: 50%;;
+	padding: 10px;
+}
+
